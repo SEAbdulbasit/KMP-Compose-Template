@@ -5,10 +5,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Application
-import platform.UIKit.UIViewController
+import androidx.compose.ui.window.ComposeUIViewController
 
-fun MainiOS(): UIViewController = Application("Music-App") {
+fun MainiOS() = ComposeUIViewController {
     Column {
         Box(
             modifier = Modifier
